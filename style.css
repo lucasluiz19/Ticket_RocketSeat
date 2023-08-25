@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+    font-family: 'Space Grotesk', sans-serif;
+    background: url(./assets/img-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    justify-content: center;  
+   
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+   
+}
+.content{
+    display: flex;
+    width: 490px;
+    height: 366px;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+   
+    
+}
+
+.content h1{
+    
+    font-family: 'Space Grotesk', sans-serif ;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #DEE0FC 0%, #996DFF 51.04%, #BC9FFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 32px;
+    max-width: 350px;
+   
+}
+.content label{
+    color:  #F3F4FE;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.input{
+    display: flex;
+    padding: 16px 12px;
+    align-items: center;
+    gap: 12px;
+    background:  #F3F4FE;
+    margin-bottom: 16px;
+}
+input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background:  #F3F4FE;
+    color:  #202024;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+input::placeholder{
+    color:  #202024;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
+#error{
+    color: #FF8F8F;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 16px;
+    display: none;
+}
+.content button{
+    padding: 22px 40px;
+    background: #8860E6;
+
+    color:  #FFF;
+    text-align: center;
+    font-family:'roboto';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+
+.ticket{
+    width: 694px;
+    height: 408px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/bg-card-ticket.png);
+    background-size: cover;
+
+}
+.ticket_background{
+    
+    width: 347px;
+    height: 318px;
+}
+.ticket_informations{
+    width: 266px;
+    height: 318px;
+    padding: 16px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile img{
+    width: 127px;
+    height: 128px;
+    border-radius: 63.5px;
+    margin-bottom: 9px;
+}
+.profile p{
+    color:  #8860E6;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.profile h2{
+    color:  #202024;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 36px;
+   
+}
+
+.info_events{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.info_events span{
+    color:  #202024;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.info_events span:nth-child(2){
+    color:  #202024;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
