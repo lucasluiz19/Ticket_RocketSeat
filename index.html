@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
-    <script src="main.js"></script>
+    <script defer src="main.js"></script>      
     <title>Ticket Rocktseat</title>
 </head>
 <body>
@@ -27,6 +27,11 @@
 
                     <span id="error">Usuário inválido. Verifique e tente novamente.</span>
 
+                    <span id="confirmed_ticket">
+                        <img src="./assets/Confirmado.png" >
+                        Ticket gerado com sucesso
+                    </span>
+
                     <button>
                         Gerar meu ticket
                     </button>
@@ -42,9 +47,9 @@
                 <div class="ticket_informations">
                     
                     <div class="profile">
-                        <img src="./assets/img-avatar.png" alt="">
+                        <img id="photo_profile" src="./assets/img-avatar.png" alt="">
                         <p>tripulante</p>
-                        <h2>Seu nome aqui</h2>
+                        <h2 id="name_elements">Seu nome aqui</h2>
                     </div>
 
                     <div class="info_events">
@@ -63,6 +68,7 @@
                     </div>
                 </div>    
             </div>
-    </div>      
+    </div>
+  
 </body>
 </html>

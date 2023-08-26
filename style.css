@@ -98,10 +98,24 @@ input::placeholder{
     margin-bottom: 16px;
     display: none;
 }
+#confirmed_ticket{
+    display: flex;
+
+    margin-bottom: 24px;
+    color:  #F3F4FE;
+    font-family:'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    text-transform: uppercase;
+    gap:16px;
+    display: none;
+    }
 .content button{
     padding: 22px 40px;
     background: #8860E6;
-
+    cursor: pointer;
     color:  #FFF;
     text-align: center;
     font-family:'roboto';
